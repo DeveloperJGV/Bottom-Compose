@@ -29,9 +29,6 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.aviva.bottom_compose.ChatScreen
-import com.aviva.bottom_compose.HomeScreen
-import com.aviva.bottom_compose.SettingsScreen
 import com.aviva.bottom_compose.data.BottomNavScreens
 
 class MainActivity : ComponentActivity() {
@@ -106,17 +103,17 @@ class MainActivity : ComponentActivity() {
 }
 @Composable
 fun HomeScreen() {
-    TextStyleNav(text = "Home Screen")
+    TextStyleNav(text = "Inicio")
 }
 
 @Composable
 fun ChatScreen() {
-    TextStyleNav(text = "Chat Screen")
+    TextStyleNav(text = "Vista de chat")
 }
 
 @Composable
 fun SettingsScreen() {
-    TextStyleNav(text = "Settings Screen")
+    TextStyleNav(text = "Vista de configuración")
 }
 
 @Composable

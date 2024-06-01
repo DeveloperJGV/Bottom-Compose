@@ -17,7 +17,7 @@ sealed class BottomNavScreens(
     val hasNews: Boolean,
     val badgeCount: Int? = null
 ) {
-    object Home : BottomNavScreens("home", "Home", Icons.Filled.Home, Icons.Outlined.Home, false, null)
-    object Chat : BottomNavScreens("chat", "Chat", Icons.Filled.Email, Icons.Outlined.Email, false, 99)
-    object Settings : BottomNavScreens("settings", "Settings", Icons.Filled.Settings, Icons.Outlined.Settings, true, null)
+    object Home : BottomNavScreens("home", "Inicio", Icons.Filled.Home, Icons.Outlined.Home, false, null)
+    object Chat : BottomNavScreens("chat", "Mensaje", Icons.Filled.Email, Icons.Outlined.Email, false, 99)
+    object Settings : BottomNavScreens("settings", "Configuración", Icons.Filled.Settings, Icons.Outlined.Settings, true, null)
 }
