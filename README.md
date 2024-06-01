@@ -16,9 +16,6 @@ El objetivo de este proyecto es recrear una barra de navegación inferior con in
 
 A continuación, se muestran algunas capturas de pantalla del proyecto:
 
-
-Si te gustan las imagenes también fueron hechas con IA.
-
 ## Instrucciones de Uso
 
 1. Clona este repositorio en tu máquina local.
